@@ -108,14 +108,16 @@ public class RPG {
        
         """ + "Até que então, em um dia nublado e monótono, um "+ classe +
         """ 
-        que passava por ali adentra os portões do reino a procura de um lugar para passar a noite.
+         que passava por ali adentra os portões do reino a procura de um lugar para passar a noite.
         Uma cabana qualquer já o servia, desde que ele pudesse ter água e comida e não precisasse passar frio como na floresta.
         
         """);
         sc.nextLine();
 
-        System.out.println(nome + " vinha de um lugar tão tão distante, passeava pelo mundo através de uma nova aventura" + """
-        ou de alguém por quem valeria a pena se apaixonar, mas nada disso havia acontecido ainda.
+        System.out.println(nome + " vinha de um lugar tão tão distante, passeava pelo mundo através de uma nova aventura" +
+        """
+         ou de alguém por quem valeria a pena se apaixonar,
+        mas nada disso havia acontecido ainda.
         Até entrar em um bar levemente movimentado ali e ouvir a conversade alguns plebeus sobre o príncipe desaparecido,
         que em 8 dias faria aniversário, completando seus 15 anos, mas que mais uma vez, o reino não estaria em festa.
         
@@ -126,11 +128,13 @@ public class RPG {
         
         NO CASTELO...
         
-        Rei Augustus - Quem ousa atrapalhar o descanso de minha amada?"""
-        + nome + " - Olá, vossa majestade, boa noite. Sou um " + classe + """ 
-        que estava apenas passando por aqui, e ouviu falar sobre seu filho desaparecido.
-        Rei Augustus - E o que você quer saber sobre?"""
-        + nome + "- Talvez eu possa ajudar a encontrá-lo." + """
+        Rei Augustus - Quem ousa atrapalhar o descanso de minha amada?
+        """ + nome + " - Olá, vossa majestade, boa noite. Sou um " + classe + """ 
+         que estava apenas passando por aqui, e ouviu falar sobre seu filho desaparecido.
+        Rei Augustus - E o que você quer saber sobre?
+        """ + nome + "- Talvez eu possa ajudar a encontrá-lo." +
+        """
+        
         Rei Augustus - Rá! Quanta audácia de sua parte meu jovem, nenhum dos meus cavaleiros jamais
         foi capaz de encontrar meu querido filho. Por que você acha que seria capaz de trazê-lo de volta para mim?
   
@@ -171,8 +175,8 @@ public class RPG {
             else if(op == 'B')
             {
                 System.out.println("""
-                        Rei Augustus - Muito corajoso de sua parte, meu jovem. Irei te dar meu voto de confiança."""
-                        + nome + " - O senhor não irá se arrepender, vossa majestade.");
+                        Rei Augustus - Muito corajoso de sua parte, meu jovem. Irei te dar meu voto de confiança.
+                        """ + nome + " - O senhor não irá se arrepender, vossa majestade.");
             }
 
             else{System.out.println("Opção Inválida.");}
@@ -208,8 +212,10 @@ public class RPG {
         
         NO DIA SEGUINTE...
         
-        Rei Augustus - Espero que tenha passado a noite bem... Ainda não sei seu nome, jovem."""
-        + nome + " - Me chamo " + nome + " , venho de um lugar tão tão distante, que por muito não deve conhecer." + """
+        Rei Augustus - Espero que tenha passado a noite bem... Ainda não sei seu nome, jovem.
+        """ + nome + " - Me chamo " + nome + " , venho de um lugar tão tão distante, que por muito não deve conhecer." +
+        """
+        
         Rei Augustus - Muito bom saber, apesar de ainda não ser nada. Bom, aqui está tudo de que precisa
         e você já pode sair logo depois do café da manhã.
         """);
@@ -239,17 +245,23 @@ public class RPG {
         sc.nextLine();
         
         System.out.println("""
-        
         Depois de andar por horas, passando por um vilarejo abandonado, um mendigo o para e pede por dinheiro.
         
         Mendigo - Você poderia me ajudar, jovem? Não tenho nada para comer.
-        """+ nome + " - Por que estás andando por terras fantasmas, senhor?" + """
-        Mendigo - Não tenho como sair daqui, meu companheiro."""
-        + nome + " - Bem, só tenho " + item[1] + " que posso lhe dar, espero que te ajude de alguma forma." + """
-        
-        Você se vira para pegar o item e então, ao olhar de novo para o cidadão, ele já não está mais ali.
-        De toda forma, você deixa as""" + item[1] + " pro caso dele voltar e dá uma olhada no papel que ele deixara para trás." +
+        """+ nome + " - Por que estás andando por terras fantasmas, senhor?" +
         """
+        
+        Mendigo - Não tenho como sair daqui, meu companheiro.
+        """ + nome + " - Bem, só tenho " + item[1] + " que posso lhe dar, espero que te ajude de alguma forma." +
+        """
+        
+        
+        Você se vira para pegar o item e então, ao olhar de novo para o cidadão, ele já não está mais ali. De toda forma,
+        você deixa as""" +" "+ item[1] + " pro caso dele voltar e dá uma olhada no papel que ele deixara para trás." +
+        """
+        
+        
+        
         É um mapa.
         Que leva em direção a uma fonte.
         
@@ -287,10 +299,14 @@ public class RPG {
         Ninfa da água - O que te traz aqui, belo rapaz?
    
         Você dá um pulo para trás assustado.
+        
+        """ + nome + " - Um mendigo em um vilarejo abandonado me deu esse mapa que me trouxe até aqui, bela dama." +
         """
-        + nome + " - Um mendigo em um vilarejo abandonado me deu esse mapa que me trouxe até aqui, bela dama." + """
-        Ninfa da Água - Por favor, me chame de Náiade. Você está na Fonte das Águas Nebulosas."""
-        + nome + " - Náiade, sabe por que aquele senhor me mandou aqui?" + """
+        
+        Ninfa da Água - Por favor, me chame de Náiade. Você está na Fonte das Águas Nebulosas.
+        """ + nome + " - Náiade, sabe por que aquele senhor me mandou aqui?" +
+        """
+        
         Náiade - Ora, você acha que sou algum tipo de vidente? Pergunte você mesmo a ele.
         
         O homem que havia lhe pedido dinheiro sai de detrás da fonte. Você só percebe agora o quão pálido ele é.
@@ -301,16 +317,22 @@ public class RPG {
         """);
         sc.nextLine();
 
-        System.out.println(nome + " - Você... você é um fantasma." + """
-        Mendigo - Sim, eu morri queimado naquele vilarejo, assim como a maioria das almas sem lar que vivem ali."""
-        + nome + " - Eu sinto muito. Mas... a pergunta que não quer calar, por que me trouxeste aqui?" + """
+        System.out.println(nome + " - Você... você é um fantasma." +
+        """
+        
+        Mendigo - Sim, eu morri queimado naquele vilarejo, assim como a maioria das almas sem lar que vivem ali.
+        """ + nome + " - Eu sinto muito. Mas... a pergunta que não quer calar, por que me trouxeste aqui?" +
+        """
+        
         Mendigo - Bem, o mapa é seu agora, vai saber na hora certa.
         
         E a figura some de novo misteriosamente. Você vira o olhar para Náiade.
         
         Náiade - Ele é cheio de graça, não teve uma vida muito longa apesar da aparência.
-        As almas envelhecem quando não conseguem energia o suficiente."""
-        + nome + "  - Certo, mas eu continuo sem saber o que estou fazendo aqui." + """
+        As almas envelhecem quando não conseguem energia o suficiente.
+        """ + nome + "  - Certo, mas eu continuo sem saber o que estou fazendo aqui." +
+        """
+        
         Náiade - Oh, meu caro, você não veio fazer nada aqui.
         
         
@@ -325,7 +347,9 @@ public class RPG {
         if(op == 'A')
         {
             System.out.println("""
-        Náiade - Vejo como você tem audácia. Mas sinto em lhe informar jovem""" + classe + "que as coisas não funcionam assim por aqui." + """
+        Náiade - Vejo como você tem audácia. Mas sinto em lhe informar jovem""" + classe +
+        " que as coisas não funcionam assim por aqui." + """
+        
         
         Você vê a bela moça de olhos castanhos e cabelos azulados se transformar em algo completamente diferente.
         Ela não era mais uma fada comum. Ela nunca foi uma fada comum.
