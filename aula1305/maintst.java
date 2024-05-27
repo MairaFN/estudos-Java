@@ -17,7 +17,6 @@ public class maintst {
         System.out.println();
         loja3.mostrarDados();
 
-        // Fechando as lojas para testar o método registra_fechamento_dia
         loja1.registra_fechamento_dia();
         loja2.registra_fechamento_dia();
         loja3.registra_fechamento_dia();
